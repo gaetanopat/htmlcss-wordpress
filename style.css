@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+}
+/* background al body */
+body{
+  background-image: url('https://s2.wp.com/wp-content/themes/premium/natural/images/natural-default-pattern.png');
+}
+/* per la parte bianca che contiene l'immagine e il titolo NATURAL */
+.giant_container{
+  width: 95%;
+  height: 300px;
+  background-color: white;
+  margin-top:2.5%;
+  margin-left:2.5%;
+  margin-right:2.5;
+  position:relative;
+}
+/* background con immagine natural */
+.natural_container{
+  background-image:url('https://s2.wp.com/wp-content/themes/premium/natural/images/natural-default-header.jpg');
+  width:98%;
+  height:95%;
+  margin:0.5% 1%;
+  position: absolute;
+}
+/* per la scritta natural */
+.natural_container .natural{
+  color:white;
+  position:absolute;
+  left:50%;
+  top:50%;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  border:5px solid white;
+  padding:10px;
+  transform: translate(-50%,-50%);
+}
+/* per l'icona sulla scritta natural */
+.natural_container i{
+  font-size:30px;
+  position:absolute;
+  left:50%;
+  top:30%;
+  color:white;
+  transform: translate(-50%,-50%);
+}
+/* per il menu */
+.menu{
+  width:95%;
+  height:auto;
+  background-color: white;
+  margin-left:2.5%;
+  font-size:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #504741;
+  text-align: center;
+}
+/* per mettere tutto sulla stessa linea  */
+.menu ul li{
+  display:inline-block;
+  font-weight: bold;
+  padding:15px;
+  font-size:15px;
+}
+/* per tutti quelli che hanno il bordo a destra */
+.menu ul .special{
+  border-right:1px solid black;
+  border-color: rgba(0,0,0, 0.3);
+}
+/* quando passo con il mouse sulle varie caselle */
+.menu ul li:hover{
+  background-color: rgba(0,0,0,.4);
+}
+.menu a{
+  color:white;
+  text-decoration: none;
+}
+/* per la colonna 1 */
+.col1{
+  float:left;
+  width:20%;
+  background-color: white;
+  margin-left:2.5%;
+  margin-top:20px;
+}
+/* per l'icona */
+.col1 i{
+  color: orange;
+  margin:15px;
+  margin-right:0;
+}
+/* per Organic Themes */
+.col1 h3{
+  display: inline-block;
+  color:#504741;
+}
+/* per dare spazio ai link verdi */
+.link{
+  margin-right:25px;
+  margin-top:10px;
+  margin-bottom:20px;
+  margin-left:25px;
+}
+/* per tutti i link */
+a{
+  text-decoration: none;
+  color: rgba(0,255,0, 0.8);
+}
+/* per la colonna 2 */
+.col2{
+  margin:2.5%;
+  margin-top:20px;
+  width:40%;
+  float:left;
+  background-color: white;
+}
+/* per il titolo della colonna 2 (THREE COLUMN)*/
+.col2 div{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin:15px;
+  color:#504741;
+}
+/* per la terza colonna */
+.col3{
+  float:left;
+  margin-top:20px;
+  margin-right:2.5%;
+  width:30%;
+}
+/* per i titoli della colonna 3 (Text Widget e Recent Posts Widget) */
+.col3 h3{
+  margin:15px;
+  color:#504741;
+}
+/* per tutti i paragrafi */
+p{
+  margin:15px;
+  color: rgba(0,0,0, 0.8);
+}
+/* per gli spazi e colorare lo sfondo bianco */
+.col3 .text_widget, .col3 .posts_widget{
+  margin-bottom:20px;
+  background-color: white;
+  padding:10px;
+}
